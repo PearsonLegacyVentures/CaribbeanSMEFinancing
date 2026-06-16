@@ -1,20 +1,3 @@
 import { PageLayout } from "@/components/layout/PageLayout";
-import { HeroSection } from "@/components/blocks/HeroSection";
-import { ContactForm } from "@/components/blocks/ContactForm";
-
-export default function Contact() {
-  return (
-    <PageLayout>
-      <HeroSection
-        eyebrow="Contact"
-        heading="Let's start a conversation."
-        description="Whether you have a project in mind or just want to explore possibilities, we'd love to hear from you."
-      />
-
-      <ContactForm
-        heading="Get in touch."
-        description="Fill out the form below and we'll get back to you within one business day."
-      />
-    </PageLayout>
-  );
-}
+import { Hero, RequestAccessForm, SEO, Section } from "./platform-content";
+export default function Contact(){return <PageLayout><SEO title="Request Access | Caribbean Alternative Finance" description="Request access as an SME, investor, institution, development partner, or other Caribbean Alternative Finance stakeholder."/><Hero eyebrow="Request Access" title="Tell us how you want to participate." description="Use this form to request funding access, investor access, an institutional partnership discussion, or development partner follow-up."/><Section title="Request access"><RequestAccessForm /></Section></PageLayout>}

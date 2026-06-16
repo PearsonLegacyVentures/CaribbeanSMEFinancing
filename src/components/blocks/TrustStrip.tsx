@@ -1,7 +1,7 @@
 import { Section } from "@/components/layout/Section";
 
 const logos = [
-  "Acme Corp", "Vertex", "Pinnacle", "Horizon", "Catalyst", "Meridian"
+  "SMEs", "Investors", "Institutions", "Development banks", "Governments", "Capital partners"
 ];
 
 interface TrustStripProps {

@@ -1,40 +1,34 @@
-/**
- * Site Configuration
- * Change these values to customize the starter for any brand.
- */
-
 export const siteConfig = {
-  name: "Studio",
-  tagline: "Strategy. Design. Results.",
-  description: "We help ambitious brands create exceptional digital experiences that drive growth and build lasting value.",
+  name: "Caribbean Alternative Finance",
+  shortName: "CAF",
+  tagline: "Receivables funding infrastructure for Caribbean SMEs.",
+  description:
+    "Unlock working capital from invoices, contracts, receivables, and recurring revenue through a regional Caribbean alternative finance platform.",
   url: "https://example.com",
   ogImage: "/og-image.jpg",
   nav: [
-    { label: "About", href: "/about" },
-    { label: "Services", href: "/services" },
-    { label: "Work", href: "/work" },
-    { label: "Contact", href: "/contact" },
+    { label: "Home", href: "/" },
+    { label: "For SMEs", href: "/for-smes" },
+    { label: "For Investors", href: "/for-investors" },
+    { label: "For Institutions", href: "/for-institutions" },
+    { label: "How It Works", href: "/how-it-works" },
+    { label: "Risk & Trust", href: "/risk-and-trust" },
   ],
   footer: {
     company: [
-      { label: "About", href: "/about" },
-      { label: "Services", href: "/services" },
-      { label: "Work", href: "/work" },
-      { label: "Contact", href: "/contact" },
+      { label: "For SMEs", href: "/for-smes" },
+      { label: "For Investors", href: "/for-investors" },
+      { label: "For Institutions", href: "/for-institutions" },
+      { label: "How It Works", href: "/how-it-works" },
     ],
     resources: [
-      { label: "Blog", href: "#" },
-      { label: "Careers", href: "#" },
-      { label: "Press", href: "#" },
+      { label: "Risk & Trust", href: "/risk-and-trust" },
+      { label: "Market Opportunity", href: "/market-opportunity" },
+      { label: "Request Access", href: "/request-access" },
     ],
     legal: [
-      { label: "Privacy", href: "#" },
-      { label: "Terms", href: "#" },
+      { label: "Platform concept", href: "/risk-and-trust" },
+      { label: "Regulatory review required", href: "/risk-and-trust" },
     ],
-    social: {
-      twitter: "#",
-      linkedin: "#",
-      instagram: "#",
-    },
   },
 };
