@@ -14,7 +14,7 @@ export function Footer() {
           <FooterList title="Resources" items={siteConfig.footer.resources} />
         </div>
         <div className="mt-10 border-t border-white/10 pt-6 text-sm text-slate-400">
-          © {new Date().getFullYear()} {siteConfig.name}. Platform concept; live funding requires applicable legal and regulatory approvals.
+          © {new Date().getFullYear()} {siteConfig.name}. This platform is in concept/pilot stage and is not yet offering regulated financial products. Funding is subject to review, verification, eligibility, and applicable legal and regulatory requirements. Investor participation involves risk. Returns are not guaranteed. <Link to="/admin-preview" className="ml-0 block pt-3 text-slate-500 hover:text-slate-300 md:inline md:pl-3 md:pt-0">Internal preview</Link>
         </div>
       </div>
     </footer>

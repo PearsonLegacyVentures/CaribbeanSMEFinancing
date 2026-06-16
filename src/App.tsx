@@ -11,6 +11,7 @@ import HowItWorks from "./pages/HowItWorks";
 import RiskTrust from "./pages/RiskTrust";
 import MarketOpportunity from "./pages/MarketOpportunity";
 import Contact from "./pages/Contact";
+import AdminPreview from "./pages/AdminPreview";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +31,7 @@ const App = () => (
           <Route path="/risk-and-trust" element={<RiskTrust />} />
           <Route path="/market-opportunity" element={<MarketOpportunity />} />
           <Route path="/request-access" element={<Contact />} />
+          <Route path="/admin-preview" element={<AdminPreview />} />
           <Route path="/contact" element={<Navigate to="/request-access" replace />} />
           <Route path="/about" element={<Navigate to="/for-smes" replace />} />
           <Route path="/services" element={<Navigate to="/for-investors" replace />} />
