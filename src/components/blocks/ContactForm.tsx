@@ -49,7 +49,7 @@ export function ContactForm({ eyebrow, heading, description }: ContactFormProps)
           </div>
           <div>
             <label htmlFor="company" className="text-sm font-medium mb-1.5 block">Company</label>
-            <Input id="company" placeholder="Acme Inc." />
+            <Input id="company" placeholder="Company or organization" />
           </div>
           <div>
             <label htmlFor="message" className="text-sm font-medium mb-1.5 block">Message</label>
